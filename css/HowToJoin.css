@@ -107,7 +107,7 @@
 }
 
 /* スマホサイズの画面の場合 */
-@media (max-width: 768px) { 
+@media (max-width: 800px) { 
   .vertical-img, 
   .horizontal-img {
     width: 90%;
