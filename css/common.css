@@ -47,7 +47,7 @@ img {
 
 .header-logo {
     display: block;
-    width: 170px;
+    width: 110px;
 }
 
 .site-menu ul {
@@ -60,7 +60,9 @@ img {
 }
 
 .site-menu ul li a {
-    font-family: 'Cherry Bomb One', cursive;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 @media (max-width: 800px) {
@@ -92,7 +94,7 @@ img {
     }
 
     .header-logo {
-        width: 100px;
+        width: 50px;
     }
 
     .header-site-menu {
@@ -150,8 +152,8 @@ img {
 
 .footer-logo {
     display: block;
-    width: 235px;
-    margin-top: 90px;
+    width: 1000px;
+    margin: 0px 0px 0px 0px;
 }
 
 .copyright {
