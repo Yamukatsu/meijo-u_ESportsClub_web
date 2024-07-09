@@ -141,13 +141,33 @@ img {
 }
 
 .footer {
-    color: #ffffff;
-    background-color: #24211b;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    height: 310px;
+    background-image: url(../images/common/X_ヘッダー.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-menu ul li a {
+    font-family: 'Cherry Bomb One', cursive;
+    margin-bottom: 20px;
 }
 
 .footer-logo {
@@ -159,5 +179,5 @@ img {
 .copyright {
     font-size: 14pt;
     font-weight: bold;
-    margin-top: 90px;
+    margin-top: 20px;
 }
