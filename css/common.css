@@ -117,6 +117,50 @@ img {
         padding-top: 50px;;
     }
 
+    .footer {
+        height: auto; /* 画像の高さに合わせて高さを自動調整 */
+        background-color: #000; /* 背景色を設定 */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px; /* 全体のパディングを追加 */
+        box-sizing: border-box; /* パディングを含めたボックスサイズを計算 */
+        color: #ffffff;
+    }
+    
+    .footer-menu ul {
+        display: flex; /* 横に並べるためにflexboxを使用 */
+        flex-wrap: wrap; /* 必要に応じて折り返す */
+        justify-content: center; /* アイテムを中央に配置 */
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        flex-direction: column; /* 小さい画面では縦に並べる */
+    }
+
+    .footer-menu ul li {
+        margin: 10px 0; /* アイテム間の間隔を調整 */
+    }
+    
+    .footer-menu ul li a {
+        font-family: 'Cherry Bomb One', cursive;
+        margin-bottom: 0; /* 不要なマージンをリセット */
+    }
+    
+    .footer-image-container {
+        width: 100%;
+        max-width: 100%; /* 最大幅を設定 */
+        display: flex;
+        justify-content: center; /* 画像を中央に配置 */
+        margin: 20px 0; /* 上下のマージンを追加 */
+    }
+    
+    .footer-image {
+        width: 100%; /* 画像がコンテナの幅を超えないようにする */
+        height: auto; /* 画像のアスペクト比を維持 */
+    }
+
     .footer-logo {
         margin-top: 60px;
     }
@@ -140,48 +184,51 @@ img {
     }
 }
 
-.footer {
-    height: 310px;
-    background-image: url(../images/common/X_ヘッダー.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    color: #ffffff;
-    text-shadow: 1px 1px 10px #4b2c14;
-}
-
-.footer-menu ul {
-    display: flex;
-}
-
-.footer-menu ul li {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.footer-menu ul li a {
-    font-family: 'Cherry Bomb One', cursive;
-    margin-bottom: 20px;
-}
-
-.footer-image {
-    display: none;
-}
-
-.footer-logo {
-    display: block;
-    width: 1000px;
-    margin: 0px 0px 0px 0px;
-}
-
-.copyright {
-    font-size: 14pt;
-    font-weight: bold;
-    margin-top: 20px;
+@media (min-width: 801px) {
+    .footer {
+        height: 310px;
+        background-image: url(../images/common/X_ヘッダー.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        color: #ffffff;
+    }
+    
+    .footer-menu ul {
+        display: flex;
+    }
+    
+    .footer-menu ul li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .footer-menu ul li a {
+        font-family: 'Cherry Bomb One', cursive;
+        margin-bottom: 20px;
+    }
+    
+    .footer-image-container {
+        width: 100%;
+        max-width: 100%; /* 最大幅を設定 */
+        display: flex;
+        justify-content: center; /* 画像を中央に配置 */
+        margin: 20px 0; /* 上下のマージンを追加 */
+    }
+    
+    .footer-image {
+        display: none;
+    }
+    
+    .copyright {
+        font-size: 14pt;
+        font-weight: bold;
+        margin-top: 20px;
+    }
 }
