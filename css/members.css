@@ -63,7 +63,7 @@
 
 .member-list li {
     display: flex;
-    align-items: center; /* 画像とテキストを左右に並べる */
+    align-items: flex-start; /* 画像とテキストを左右に並べる */
     margin-bottom: 20px;
     flex-shrink: 0;
     width: 100%; /* 全幅を占める */
@@ -75,23 +75,26 @@
 }
 
 .member-list img {
-    margin-right: 20px;
-    width: 100px;
-    height: 100px;
+    margin-right: 100px;
+    margin-left: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .member-list dl {
+    text-align: center;
     margin: 0;
+    height: 200px;
 }
 
 .member-list dt {
+    margin: 0;
     font-weight: bold;
     font-size: 1.2em;
-    margin-bottom: 5px;
 }
 
 .member-list dd {
-    margin: 0 0 10px;
+    margin: 0;
 }
 
 .member-list p {
@@ -105,14 +108,22 @@
     }
 
     .member-list li {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        width: 220px;
-        margin-left: 30px;
+        width: 100%;
+        margin-left: 0;
     }
 
     .member-list img {
         margin-right: 0;
         margin-bottom: 10px;
+    }
+
+    .member-list dl, .member-list dt, .member-list dd {
+        text-align: center;
+    }
+
+    .member-list p {
+        margin-top: 10px;
     }
 }
