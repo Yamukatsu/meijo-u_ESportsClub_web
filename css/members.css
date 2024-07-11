@@ -1,3 +1,32 @@
+.title {
+    height: 310px;
+    background-image: url(../images/members/menber_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45pt;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
 .members {
     background-color: #f8f8f8;
     padding-top: 45px;

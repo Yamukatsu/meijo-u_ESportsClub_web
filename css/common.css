@@ -41,6 +41,13 @@ img {
     align-items: center;
 }
 
+.header-text {
+    flex: 1;
+    padding-left: 20px;
+    font-size: 40px;
+    color: #000000;
+}
+
 .toggle-menu-button {
     display: none;
 }
@@ -95,6 +102,13 @@ img {
 
     .header-logo {
         width: 50px;
+    }
+
+    .header-text {
+        flex: 1;
+        padding-left: 20px;
+        font-size: 20px;
+        color: #000000;
     }
 
     .header-site-menu {
