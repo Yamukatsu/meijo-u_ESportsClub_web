@@ -10,20 +10,20 @@
     align-items: center;
     color: #ffffff;
     text-shadow: 
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    -1px -1px 0 #ff0000,  
+    1px -1px 0 #ff0000,
+    -1px 1px 0 #ff0000,
+    1px 1px 0 #ff0000;
 }
 
 .title h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 45pt;
+    font-size: 50pt;
     font-weight: bold;
 }
 
 .title p {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 15px;
 }
 

@@ -10,20 +10,20 @@
     align-items: center;
     color: #ffffff;
     text-shadow: 
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    -1px -1px 0 #ff0000,  
+    1px -1px 0 #ff0000,
+    -1px 1px 0 #ff0000,
+    1px 1px 0 #ff0000;
 }
 
 .title h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 45pt;
+    font-size: 50pt;
     font-weight: bold;
 }
 
 .title p {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 15px;
 }
 
@@ -51,22 +51,51 @@
 }
 
 .member-list {
-    display: flex;
+    list-style: none;
     padding-top: 40px;
     padding-bottom: 10px;
     padding-left: 60px;
     padding-right: 60px;
-    overflow: scroll;
+    display: flex;
+    flex-direction: column; /* 縦に並べる */
+    align-items: flex-start;
 }
 
 .member-list li {
+    display: flex;
+    align-items: center; /* 画像とテキストを左右に並べる */
+    margin-bottom: 20px;
     flex-shrink: 0;
-    width: 260px;
-    margin-left: 75px;
+    width: 100%; /* 全幅を占める */
+    margin-left: 0; /* 左側のマージンをリセット */
 }
 
 .member-list li:first-child {
     margin-left: 0;
+}
+
+.member-list img {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.member-list dl {
+    margin: 0;
+}
+
+.member-list dt {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.member-list dd {
+    margin: 0 0 10px;
+}
+
+.member-list p {
+    margin: 0;
 }
 
 @media (max-width: 800px) {
@@ -76,7 +105,14 @@
     }
 
     .member-list li {
+        flex-direction: row;
+        align-items: center;
         width: 220px;
         margin-left: 30px;
+    }
+
+    .member-list img {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }

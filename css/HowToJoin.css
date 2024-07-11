@@ -1,4 +1,32 @@
 /* HowToJoin.css */
+.title {
+  height: 310px;
+  background-image: url(../images/HowToJoin/HowToJoin_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 
+  -1px -1px 0 #ff0000,  
+  1px -1px 0 #ff0000,
+  -1px 1px 0 #ff0000,
+  1px 1px 0 #ff0000;
+}
+
+.title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50pt;
+  font-weight: bold;
+}
+
+.title p {
+  font-size: 30px;
+  margin-top: 15px;
+}
 
 .HowToJoin {
   padding: 30px 20px;
