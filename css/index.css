@@ -235,7 +235,7 @@ img {
         margin-left: auto;
         margin-right: auto;
         padding-left: 40px;
-        padding-bottom: 80px;
+        margin-top: 40px;
         color: #ffffff;
         font-weight: bold;
         text-shadow: 1px 1px 10px #4b2c14;
@@ -254,7 +254,7 @@ img {
     
     .lead {
         max-width: 1200px;
-        margin: 60px auto;
+        margin-left: 20px;
         margin-right: 40px;
     }
 
