@@ -224,7 +224,7 @@ img {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        margin-top: 40px;
+        padding-top: 60px;
         display: flex;
         align-items: center;
     }
@@ -234,7 +234,8 @@ img {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-top: 40px;
         color: #ffffff;
         font-weight: bold;
@@ -243,6 +244,7 @@ img {
 
     .first-view-text h1 {
         font-family: 'Montserrat', sans-serif;
+        padding-top: 10px;
         font-size: 45px;
         line-height: 72px;
     }
