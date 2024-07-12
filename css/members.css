@@ -130,6 +130,7 @@
     .member-list a {
         align-items: center;
         margin-right: 0;
+        font-size: 40px;
     }
 
     .member-list img {
@@ -138,5 +139,17 @@
 
     .member-list dl, .member-list dt, .member-list dd {
         text-align: center;
+    }
+
+    .member-list dt {
+        font-size: 30px;
+    }
+
+    .member-list dd {
+        font-size: 15px;
+    }
+
+    .member-list p {
+        font-size: 20px;
     }
 }
