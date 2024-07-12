@@ -57,7 +57,7 @@ nav.floating {
 .lead {
     max-width: 1200px;
     margin: 60px auto;
-    margin-right: 60px;
+    margin-right: 40px;
 }
 
 .space {
@@ -210,7 +210,7 @@ img {
     .space {
         height: 50px;
         width: 100%;
-       background-color: #ffffff;
+        background-color: #ffffff;
     }
 
     .main {
