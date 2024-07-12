@@ -21,6 +21,7 @@ nav.floating {
     align-items: center;
     text-align: center;
 }
+
 .first-view {
     height: calc(100vh - 110px);
     background-image: url(../images/index/index_main.jpg);
@@ -217,6 +218,29 @@ img {
         padding-top: 50px;;
     }
 
+    .first-view {
+        height: calc(100vh - 110px);
+        background-image: url(../images/index/index_main.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .first-view-text {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+        padding-bottom: 80px;
+        color: #ffffff;
+        font-weight: bold;
+        text-shadow: 1px 1px 10px #4b2c14;
+    }
+
     .first-view-text h1 {
         font-family: 'Montserrat', sans-serif;
         font-size: 45px;
@@ -225,7 +249,7 @@ img {
     
     .first-view-text p {
         font-size: 18px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     
     .lead {
