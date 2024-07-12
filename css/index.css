@@ -217,6 +217,23 @@ img {
         padding-top: 50px;;
     }
 
+    .first-view-text h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        line-height: 72px;
+    }
+    
+    .first-view-text p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .lead {
+        max-width: 1200px;
+        margin: 60px auto;
+        margin-right: 40px;
+    }
+
     .footer {
         height: auto; /* 画像の高さに合わせて高さを自動調整 */
         background-color: #000; /* 背景色を設定 */
