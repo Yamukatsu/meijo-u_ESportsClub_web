@@ -27,10 +27,16 @@
     margin-top: 15px;
 }
 
+.first-text {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 30px;
+}
+
 .members {
-    background-color: #f8f8f8;
-    padding-top: 45px;
-    padding-bottom: 55px;
+    background-color: #ffffff;
 }
 
 .members h2 {
@@ -52,10 +58,10 @@
 
 .member-list {
     list-style: none;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
     display: flex;
     flex-direction: column; /* 縦に並べる */
     align-items: flex-start;
@@ -67,7 +73,6 @@
     margin-bottom: 20px;
     flex-shrink: 0;
     width: 100%; /* 全幅を占める */
-    margin-left: 0; /* 左側のマージンをリセット */
 }
 
 .member-list li:first-child {
@@ -75,38 +80,46 @@
 }
 
 .member-list img {
-    margin-right: 100px;
-    margin-left: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
     width: 200px;
     height: 200px;
 }
 
+.member-list a {
+    background-color: #000000;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    font-size: 50px;
+    color: #ffffff;
+}
+
 .member-list dl {
+    justify-content: center;
     text-align: center;
-    margin: 0;
-    height: 200px;
 }
 
 .member-list dt {
-    margin: 0;
+    height: 60px;
+    padding: 10px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 40px;
+    color: #0000ff;
 }
 
 .member-list dd {
-    margin: 0;
+    font-size: 25px;
 }
 
 .member-list p {
-    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: solid 2px #000000;
 }
 
 @media (max-width: 800px) {
-    .member-list {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     .member-list li {
         flex-direction: column;
         align-items: center;
@@ -114,16 +127,16 @@
         margin-left: 0;
     }
 
-    .member-list img {
+    .member-list a {
+        align-items: center;
         margin-right: 0;
+    }
+
+    .member-list img {
         margin-bottom: 10px;
     }
 
     .member-list dl, .member-list dt, .member-list dd {
         text-align: center;
-    }
-
-    .member-list p {
-        margin-top: 10px;
     }
 }
